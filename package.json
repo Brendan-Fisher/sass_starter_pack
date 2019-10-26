@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "description": "Boiler plate for sass projects",
   "main": "index.js",
+  "homepage": "https://Brendan-Fisher.github.io/sass_starter_pack",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Brendan Fisher",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
   }
 }
